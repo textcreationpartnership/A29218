@@ -1,0 +1,424 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Signes of the times, or, Prognosticks of future judgements with the way how to prevent them / by Edward Bagshaw ...</title>
+            <author>Bagshaw, Edward, 1629-1671.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1662</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 65 KB of XML-encoded text transcribed from 19 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A29218</idno>
+            <idno type="STC">Wing B425</idno>
+            <idno type="STC">ESTC R22957</idno>
+            <idno type="EEBO-CITATION">12125961</idno>
+            <idno type="OCLC">ocm 12125961</idno>
+            <idno type="VID">54598</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A29218)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 54598)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 756:19)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Signes of the times, or, Prognosticks of future judgements with the way how to prevent them / by Edward Bagshaw ...</title>
+                  <author>Bagshaw, Edward, 1629-1671.</author>
+               </titleStmt>
+               <extent>[6], 31, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Simon Miller ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1662.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Errata: p. 31.</note>
+                  <note>Advertisement: p. [1] at end.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Matthew XVI, 3 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-12</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2012-12</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:54598:1"/>
+            <pb facs="tcp:54598:1"/>
+            <p>SIGNES OF THE TIMES: OR PROGNOSTICKS OF Future Judgements, <hi>WITH</hi> The way how to prevent them.</p>
+            <p>
+               <hi>BY Edward Bagſhaw,</hi> Student of <hi>Ch. Church.</hi>
+            </p>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>Simon Miller</hi> at the Star in St. <hi>Pauls</hi> Church-yard. 1662.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:54598:2"/>
+            <head>The Preface.</head>
+            <p>
+               <seg rend="decorInit">A</seg>Mong the names whereby the publick Ministers of the word are expreſſed in Scripture, there is none either more uſe<g ref="char:EOLhyphen"/>full unto others, or if neglect<g ref="char:EOLhyphen"/>ed, more dreadfull to them<g ref="char:EOLhyphen"/>ſelves, than the ſtile of <hi>Watchmen,</hi> which is ſo often given them, whoſe buſineſſe it is to foreſee the firſt Approach of Danger, and to give timely Notice, that ſo all who through ſleep and eaſe would not rouſe up themſelves, and take the Ala<g ref="char:EOLhyphen"/>rum, might be inexcuſably guilty of their own De<g ref="char:EOLhyphen"/>ſtruction. <hi>But,</hi> ſaith God to <hi>Ezekiel,</hi>
+               <note place="margin">Ezek. 33.6.</note> whom he had deputed for the diſcharge of that forlorne em<g ref="char:EOLhyphen"/>ployment, <hi>if the Watchman ſee the Sword come,</hi> (which may be understood proportionably of any other impending Calamity) <hi>and blow not
+<pb facs="tcp:54598:3"/>the Trumpet, and the people be not warned, if the ſword come and take any perſon from among them, he is take away in his iniquity, but his blood will I require at thy hand.</hi> It was, I believe, for fear of this terrible account (which the common ſort of meerly ſelf-called, and humanely appointed Prophets conſider not) that <hi>Habakkuk,</hi> who was by God himſelf commiſsion<g ref="char:EOLhyphen"/>ed for this Taske, to declare his diligence, cries out, <hi>I will ſtand upon my watch,
+<note place="margin">Hab 2.1.</note> and ſet me upon the tower, and will watch to ſee what he will ſay to me;</hi> And to ſhew, that what he received in this kind, was not to be concealed or reſerved only for his own uſe,
+<note place="margin">Verſe 2.</note> God preſently bids him, <hi>Write the viſion and make it plain upon Tables, that he who runs may read it, i. e.</hi> Whatever you find upon your moſt strict and ſevere enquiry, let it not be impriſoned in ſecret, but unfolded to all in the moſt perſpicuous and apparent manner; ſince ſuch <hi>viſions</hi> like light, are loſt as to the uſe of them, if they be not communicated.</p>
+            <p>If this was the duty of <hi>Prophets</hi> heretofore, it must needs follow, that it doth equally belong to <hi>Preacher</hi> now; whoſe burden is not at all leſſend, but as their Miniſtry is more glorious, ſo there is a double weight of care incumbent upon them; <hi>For
+<pb facs="tcp:54598:3"/>they,</hi>
+               <note place="margin">Heb. 13.17.</note> ſaith the Apostle ſpeaking of Goſpel-Mini<g ref="char:EOLhyphen"/>sters, <hi>do watch for mens ſouls, as thoſe who muſt give an account.</hi> And when the Apoſtle <hi>Paul</hi> would testifie how carefully he had diſcharg<g ref="char:EOLhyphen"/>ed his Miniſtry, he tells the <hi>Epheſian Elders,</hi>
+               <note place="margin">Acts 20.26.</note> that he was <hi>clear from their blood:</hi> Thereby implying, that had he not with ſo much ſollici<g ref="char:EOLhyphen"/>tous induſtry and watchfullneſſe performed his office, in denouncing their danger as well as in declaring their duty, he ſhould have been ac<g ref="char:EOLhyphen"/>countable for their miſcarriage.</p>
+            <p>This Conſideration alone, without any circum<g ref="char:EOLhyphen"/>stantiall inducements, will ſufficiently juſtifie me in venturing to Publiſh, what I have now, not without great anxiety, for a long time ob<g ref="char:EOLhyphen"/>ſerved; That ſo, if theſe indeed are <hi>Signes of the Times,</hi> or, <hi>Fore-runners of Future Judg<g ref="char:EOLhyphen"/>ments,</hi> which I have impartially Collected for ſuch out of the Scriptures of Truth; then o<g ref="char:EOLhyphen"/>thers, together with my ſelf, might take notice of, and be warned by them. For though I ſhall alwayes pray, that I may prove herein a <hi>falſe Prophet;</hi> yet ſo long as our National ſinnes are ſo great and crying, I ſhould not have been faithfull in my Miniſtry, (which I doe not take to be confined within the circuit of
+<pb facs="tcp:54598:4"/>any one Pariſh) ſhould I not have thus <hi>Blown the Trumpet,</hi> and endeavoured to awaken all, in<g ref="char:EOLhyphen"/>to whoſe hands this Treatiſe may come, that, while the Cloud is gathering, they might looke up, and labour to avoid their danger.</p>
+            <closer>
+               <signed>Edward Bagſhaw.</signed> 
+               <dateline>Drury-lane, <date>
+                     <hi>Jan.</hi> 28. 1661.</date>
+               </dateline>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:54598:4"/>
+            <head>Signes of the Times.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>Matth. 16.3.</hi>
+                  </bibl>
+                  <p>Ye Hypocrites, ye can diſcern the face of the Sky, and can ye not diſcern the ſignes of the Times?</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">T</seg>Heſe words contain our Saviours anſwer, to an impious command of the unbelieving <hi>Phariſees,</hi> who, notwithſtanding the many Mira<g ref="char:EOLhyphen"/>cles he had wrought, yet now come to require a <hi>viſible ſign</hi> from him; <hi>a ſign from Heaven;</hi> and this they did, not out of any deſire to be convinced by him, but willing ſome way or other to entrap and enſnare him; The Text ſaith, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>play<g ref="char:EOLhyphen"/>ing the tempters with him;</hi> For,
+<note place="margin">Matth</note> that we may know by what <hi>ſpirit</hi> they were acted, we ſhall find that the very firſt <hi>temptation,</hi> whereby the Devil did ſet up<g ref="char:EOLhyphen"/>on our Saviour, was to deſire ſuch a ſign of his Di<g ref="char:EOLhyphen"/>vinity from him, <hi>If thou be the Son of God, command
+<pb n="2" facs="tcp:54598:5"/>that theſe ſtones be made bread,</hi> ſo theſe, <hi>ſhow us a ſign from Heaven.</hi>
+            </p>
+            <p>Our Saviours abſolute refuſal, both then and here, to ſatisfie this bold and unwarrantable curioſity, leaves us this Obſervation, That <hi>where ordinary meanes for the attaining of faith may be had, there it is nothing elſe but a tempting of God to requeſt a Miracle.</hi> Miracles are the rarities and reſerves of Heaven, which God will not ſuffer to be ſquandred away to no purpoſe; but Gods viſible ſtore-houſe and treaſure of good things muſt be firſt ſearched and ranſacked, before that other way may be, ſo much as in a wiſh, at<g ref="char:EOLhyphen"/>tempted. Had the <hi>Phariſees</hi> done that part of their duty, which was to <hi>ſearch the Scriptures,</hi> and to en<g ref="char:EOLhyphen"/>quire thence, what kind of perſon the <hi>Meſsiah</hi> was to be, and what he was to do and ſuffer; they might thence have arrived to a better ſatisfaction of their doubts, than any miracle could have procured them.</p>
+            <p>Our Saviour therefore remits them to theſe or<g ref="char:EOLhyphen"/>dinary and ſafe, becauſe ſanctified, wayes of trial: and by a familiar inſtance, convinces them of their great folly and indiligence, in this ſo ſerious and im<g ref="char:EOLhyphen"/>portant buſineſſe. You are, ſaith he, very carefull to obſerve the Heaven, and from the various aſpects of it, are able to collect what kind of Weather the following day will produce; which induſtry of yours in that which is of ſo ſmall concernment, argues you to be but <hi>Hypocrites,</hi> in that you neglect to take no<g ref="char:EOLhyphen"/>tice of the <hi>times,</hi> the <hi>ſignes</hi> of which are as viſible and as eaſie to be known, as the prognoſticks and in<g ref="char:EOLhyphen"/>dications of the Weather.</p>
+            <p>By <hi>times</hi> here, I take it our Saviour means, thoſe
+<pb n="3" facs="tcp:54598:5"/>calamities and miſeries, which were then hanging o<g ref="char:EOLhyphen"/>ver, and, becauſe of their rejecting of <hi>Chriſt,</hi> would certainly come upon the Jews. So is the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> here rendred <hi>times,</hi> to be underſtood in other places; as where the Apoſtle <hi>Paul</hi> ſaith,
+<note place="margin">1 Theſ. 5.1, 3.</note> 
+               <hi>But of the times and ſeaſons, ye have no need that I write unto you, for that your ſelves know, that the day of the Lord</hi> (i. the de<g ref="char:EOLhyphen"/>ſtruction he hath threatned) <hi>ſo cometh as a thief in the night;</hi> For when they ſhall ſay, <hi>peace and ſafety (e. i.</hi> there is nothing at all to be feared) then ſudden <hi>deſtruction cometh upon them, as travaile upon a wo<g ref="char:EOLhyphen"/>man with childe, and they ſhall not eſcape.</hi> So when our Saviour wept over <hi>Jeruſalem,</hi> in contemplation of thoſe miſerable ſlaughters and devaſtations which were then coming upon them, he uſed theſe words, <hi>Oh! that thou haſt known in this thy day, (i.</hi>
+               <note place="margin">Luke 19.41, 44.</note> in which I warn thee of thy approaching danger) <hi>the things that belong to thy peace:</hi> But becauſe they regarded them not, but went on ſecure and carleſſe, therefore he acquaints them, that <hi>their enemies,</hi> the <hi>Romans,</hi> ſhould very ſhortly demoliſh their City, <hi>becauſe,</hi> ſaith he, <hi>thou knoweſt not,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>the time</hi> or <hi>ſeaſon of thy viſitation,</hi> i. that time, wherein mercy is offered, the refuſal of which will inevitably bring a ſudden and irreparable judgment. And this place I take to be a full Comment upon the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>or times,</hi> here mention<g ref="char:EOLhyphen"/>ed by our Saviour.</p>
+            <p>The words thus explained obſerve two Obſer<g ref="char:EOLhyphen"/>vations.</p>
+            <p>Doct. 1. <hi>God never intends to bring a publick and eminent judgment upon a people that profeſſe his name, but he alwayes creates and ſends ſome ſignes which do infallibly foretell and forerun it.</hi>
+            </p>
+            <pb n="4" facs="tcp:54598:6"/>
+            <p> Doct. 2. <hi>That it is every holy and truly re<g ref="char:EOLhyphen"/>ligious mans duty, to ſtudy and to examine thoſe ſions.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>1</label> The firſt Obſervation is, That <hi>God never intends to bring a publick and eminent judgment upon a people that profeſſe his name, but he alwayes creates and ſends ſome ſignes, which do infallibly foretell and forerun it.</hi> And the truth of this is evident, not only from mat<g ref="char:EOLhyphen"/>ter of fact and ſtory, (for we read not in the whole Scripture, of any judgement that God ever ſent up<g ref="char:EOLhyphen"/>on the <hi>Iſraelites,</hi> (who had the ſole priviledge of be<g ref="char:EOLhyphen"/>ing his people) but he alwayes ſent ſome previous warnings and admonitions of it, which were his <hi>ſigns</hi>) but likewiſe it appears from theſe two Reaſons.</p>
+            <p n="1">
+               <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>1</label> 1. From that ſympathy and fellow-feeling which God hath put in his whole Creation, whereby each part hath a care of the whole, and according to its meaſure, doth endeavour its preſervation. As in the body natural of man, upon the next and immediate approaches of death, ſome parts are put into ſudden tremblings and convulſions; whereby they diſcover the nearneſſe, and as far as they can, labour to prevent the danger of that enemy: ſo hath God ordered it in the great body of the world; that Earth-quakes, like Convulſions; Eclypſes, like failing of the eyes, and ſuch other unuſual prodiges (which have an Analogy and reſemblance to the accidents that happen to the body of man, ſhould commonly precede that <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ine, wherein any one State or Nation is <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to be involved. As when our Saviour died, the <hi>Sun was darkned,</hi> the <hi>Rocks were rent,</hi> the <hi>Earth ſhook</hi> by a kind of natural ſympathy and compaſſionate horror at ſo dreadfull and amazing a ſpectacle; ſo when <hi>Jeru<g ref="char:EOLhyphen"/>ſalem</hi>
+               <pb n="5" facs="tcp:54598:6"/>was to be deſtroyed,
+<note place="margin">Luke 21.11.</note> our Saviour himſelf fore<g ref="char:EOLhyphen"/>tels, that there ſhould be <hi>Earth quakes,</hi> and <hi>Famines,</hi> and <hi>Peſtilences,</hi> and <hi>fearfull ſights,</hi> and <hi>great ſignes,</hi> as the van-carriers and outguard to that more terrible deſolation which was to follow them. What the Apoſtle therefore ſayes elegantly concerning future Glory, that the <hi>whole Creation,</hi> which was made ſubject to vanity and miſery for mans ſinne,
+<note place="margin">Rom. 8.19, 22.</note> 
+               <hi>doth groane, and as it were travaile in pain, untill it be deli<g ref="char:EOLhyphen"/>vered from the bondage of corruption;</hi> and manumit<g ref="char:EOLhyphen"/>ted or ſet free to partake of the <hi>glorious liberty of the Children of God:</hi> ſo while it is in this ſtate of vanity, God hath put into it ſuch a quick ſenſe, that not one part can grieve, but it will all, after a ſort, grieve toge<g ref="char:EOLhyphen"/>ther; and diſcover by its <hi>tremblings, ſhakings, eclyp<g ref="char:EOLhyphen"/>ſes</hi> and <hi>extraordinary changes,</hi> that there is ſome great judgment a coming.</p>
+            <p>Secondly,
+<label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>2</label> The ſecond Reaſon may be taken from the gracious and mercifull diſpoſition of God, who is unwilling at once to <hi>ſtir up all his anger,</hi> and therefore warns often before he ſtrikes. When once God is in Covenant with a people, it is not a little matter that will provoke him to uſe extremities againſt them: according as the <hi>Pſalmiſt</hi> obſerves concern<g ref="char:EOLhyphen"/>ing the people of <hi>Iſrael,</hi> whoſe hearts, <hi>though they were not right with him, nor ſtedfaſt in his Covenant, Yet,</hi> ſaith he, <hi>God being full of compaſſion,</hi>
+               <note place="margin">Pſal. 78.37.</note> 
+               <hi>forgave their iniquity, and deſtroyed them not; yea, many a time turned he his anger away, and did not stir up all his wrath; For he remembred that they were but fleſh, a wind that paſſeth away, and cometh not again.</hi> What forbearance here is imputed unto Gods conſidering his peoples frailty, in another place is aſcribed unto
+<pb n="6" facs="tcp:54598:7"/>Gods being mindfull of his Covenant. As we have it,
+<note place="margin">Pſal. 106.43, 45.</note> 
+               <hi>Many times did he deliver them, but they provoked him by their Councel, and were brought low for their iniquity: nevertheleſſe he regarded their affliction when he heard their cry; and he remembred for them his Co<g ref="char:EOLhyphen"/>venant; and repented according to the multitude of his mercies.</hi> It is by virtue of this <hi>Covenant,</hi> into which every Nation profeſſing his Name do enter, that God is ſo unwilling to ſmite, and will never ſurprize his people; and therefore he lets his anger ſmoke long, before the fire of it breaks out. In the Covenant God made with <hi>David,</hi> are expreſſed the termes wherein all Gods Covenants do run, either to the <hi>Jews</hi> or any other people who ſtand under that rela<g ref="char:EOLhyphen"/>tion;
+<note place="margin">Pſal 88 26, 34.</note> 
+               <hi>He ſhall,</hi> ſaith God, <hi>cry unto me, thou art my Father, my God, and the rock of my ſalvation.</hi> And then God promiſes, <hi>My mercy will I keep for him for evermore, and my Covenant ſhall ſtand faſt with him.</hi> Whereupon he ſaies, that if his Children ſhould re<g ref="char:EOLhyphen"/>bell againſt him, <hi>Then I will viſit their tranſgreſſion with a Rod, and their iniquity with ſtripes, i.</hi> I will gently correct them; for which he gives this reaſon, <hi>My Covenant will I not break,</hi>
+               <note place="margin">Verſe 31.</note> 
+               <hi>nor alter the thing which is gone out of my lips.</hi> God therefore having obliged himſelf to deale as a Father, he will not come to caſt a people utterly off, and to reſcind all engagements and tyes between them, till all his other remedies have failed. As a Father will often frowne upon his ſon, then chide, then warne and admoniſh him, before he proceeds to cut off the Entaile, and utter<g ref="char:EOLhyphen"/>ly to diſinherit him: So deals God with a profeſſing people, he ſhews ſome apparent ſignes of his anger, before he goes on to poure out, and to execute the
+<pb n="7" facs="tcp:54598:7"/>fierceneſſe of it: He makes the characters and tokens of his indignation legible, and unleſſe they <hi>blind their eyes,</hi> and <hi>harden their hearts,</hi> he will not let it fall with its whole weight and ſurcharge upon them. And ſo much for the firſt Obſervation.</p>
+            <p>The ſecond Obſervation is this,
+<label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>2</label> That <hi>It is every holy and truely religious mans duty, to ſtudy and to exa<g ref="char:EOLhyphen"/>mine thoſe ſinges.</hi> And this is clear in that our Savi<g ref="char:EOLhyphen"/>our calls the <hi>Phariſees, Hypocrites,</hi> for neglecting it; and by his Prophet <hi>Jeremy,</hi> God complains,
+<note place="margin">Jer. 8.7.</note> 
+               <hi>The ſtork in the heaven knoweth her appointed times, and the turtle, and the crane, and the ſwallow, obſerve the time of their coming,</hi> (<hi>i. e.</hi> theſe brute creatures un<g ref="char:EOLhyphen"/>derſtand their proper ſeaſons, and what in each of them is moſt for their good,) <hi>but my people know not the judgement of the Lord,</hi> (<hi>i. e.</hi> they heed not that judgement, which by all marks and tokens, they might eaſily perceive God is bringing upon them) The Church therefore, when ſhe would declare and manifeſt her integrity, ſhe ſayes, <hi>Yea,</hi>
+               <note place="margin">Iſai. 26.8.</note> 
+               <hi>in the way of thy judgments, O Lord, have we waited for thee, i. e.</hi> We have traced the footſteps of thy judgments, we have diſcovered the print and appearance of them, and accordingly we have compoſed our ſelves to wait upon thee. And that this is every holy mans duty, will appear from theſe Reaſons;</p>
+            <p>Firſt,
+<label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>1</label> Becauſe this is the end why God doth ſend theſe forerunners, that they may be taken notice of as when God made the <hi>Rain-bow</hi> to be a token of the Covenant between himſelf and <hi>Noah,</hi> he ſaies,
+<note place="margin">Gen. 9.14.</note> 
+               <hi>My how ſhall be ſeen in the cloud, i. e.</hi> it ſhall not be placed idely there, but as it were, ſummon the eye of every beholder to obſerve it: ſo when God ſets ſome
+<pb n="8" facs="tcp:54598:8"/>lightnings and overtures of a tempeſt to precede his thunder, he loſeth his deſign, if ſuch as profeſſe to fear his name do not regard them. Therefore the <hi>Pſalmiſt</hi> threatneth the wicked,
+<note place="margin">Pſal. 28.5.</note> 
+               <hi>Becauſe they regard not the works of the Lord, nor the operation of his hands, he ſhall deſtroy them, and not build them up.</hi> Intimating, that to be incurious and indiligent heed<g ref="char:EOLhyphen"/>ers of any of Gods works, eſpecially of his works of mercy, would onely adde wings and weight unto his judgements, to make them more ſpeedy and withall more intolerable.</p>
+            <p>Secondly,
+<label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>2</label> This will make the godly more than ordinarily carefull and obſervant of their wayes. As, when no enemy is near, the Souldier is apt to relax his Diſcipline; but when he perceives either the riſing of the Duſt, or the neighing of Horſes, preſently he buckles on his armes, and prepares himſelf for the Combate. So is the caſe between God and us, while we conceive that he is at peace with us, and all is well, we are apt to <hi>ſlumber and ſleep,</hi>
+               <note place="margin">Matth. 25.6.</note> (as even the <hi>wiſe Vir<g ref="char:EOLhyphen"/>gins</hi> in the <hi>Parable</hi> did, and herein kept company with the <hi>fooliſh.</hi>) But when we perceive that God is angry, and by ſome evident ſymptomes of his wrath, we can read, that he is preparing his thun<g ref="char:EOLhyphen"/>derbolts, and aiming them at the wicked, this will awaken us to look to our ſtanding, and to provide ſome ſhelter againſt the impending ſtorme: When the judgments are actually come, then the Prophet tells us,
+<note place="margin">Iſai. 26.9.</note> that even <hi>the wicked will learne righteouſneſs.</hi> How much more ſhould the godly do it, while theſe judgements are coming? for then is their time, to run into their hiding-place. According to the ad<g ref="char:EOLhyphen"/>vice of the ſame Prophet,
+<note place="margin">Verſe 20, 21.</note> 
+               <hi>Come my people, enter thou
+<pb n="9" facs="tcp:54598:8"/>into thy Chambers, and ſhut thy doores about thee: Hide thy ſelf as it were for a little moment, untill the indignation be overpaſt. For behold the Lord cometh out of his place, to puniſh the inhabitants of the earth for their iniquity.</hi> Wherein there is declared, not onely that the people of God may diſcern the firſt approaches of wrath, but likewiſe that then they ought to act and quicken their faith on Chriſt, who is their rock and refuge.</p>
+            <p>Laſtly,
+<label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>3</label> This will give God the glory of his ju<g ref="char:EOLhyphen"/>ſtice, and likewiſe ſatisfie and quiet the ſpirit of his people, when at laſt God doth proceed to accom<g ref="char:EOLhyphen"/>pliſh the ſeverity of his judgement. If a Father ſhould ſuddenly diſinherit his Son, without ever diſ<g ref="char:EOLhyphen"/>covering any ſignes of his diſpleaſure; the ſon would have reaſon to be diſcontented, and to complaine of harſh and rigorous uſage; But when the Parent can ſay to his ſonne as the forme is preſcribed in <hi>Deute<g ref="char:EOLhyphen"/>ronomy, Thou art a glutton and a drunkard,</hi>
+               <note place="margin">Deut. 21.18, 20.</note> 
+               <hi>and like<g ref="char:EOLhyphen"/>wiſe ſtubborn and rebellious, and wilt not obey my voice; and when I have chaſtened thee, thou wouldſt not hearken to me.</hi> Then if he proceeds to take a le<g ref="char:EOLhyphen"/>gal remedy, none can blame him for it. So when the godly, by obſerving the <hi>ſignes of the times,</hi> ſhall ſay, God is now angry, and unleſſe you repent, will aſſuredly bring a ſudden judgement upon you; if at laſt the overflowing ſcourge doth come, they muſt needs applaud Gods juſtice, and <hi>be comforted</hi> con<g ref="char:EOLhyphen"/>cerning his doings; as the expreſſion is,
+<note place="margin">Ezek. 14.22, 23.</note> 
+               <hi>Ye ſhall be comforted, concerning the evil that I have brought up<g ref="char:EOLhyphen"/>on Jeruſalem: And they ſhall comfort you, when ye ſee their wayes and their doings: and ye ſhall know that I have not done without cauſe, all that I have done in it.</hi>
+               <pb n="10" facs="tcp:54598:9"/>One of which cauſes is, their not attending to thoſe preparatory ſtrokes and <hi>items</hi> of future vengeance, whereby God ſhewed himſelf willing to be preven<g ref="char:EOLhyphen"/>ted, and therefore was moſt juſt in puniſhing.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Uſe. </seg>
+               </label> The Uſe of it ſhall be to exhort all us of this Na<g ref="char:EOLhyphen"/>tion, to enquire whether any of theſe <hi>ſignes</hi> be upon us; and that we may do ſo, the beſt way will be to examine firſt what are thoſe <hi>ſignes,</hi> which fatally and inevitably forerun ſome great and ſignal cala<g ref="char:EOLhyphen"/>mity.</p>
+            <p>To find out this, our onely way is, not to depend upon our own gueſſes, or to follow the <hi>ſpirit</hi> and conceits of other men; but to <hi>ſearch the Scriptures,</hi> eſpecially the <hi>Propheſies of the Old Teſtament;</hi> For we muſt not think, that thoſe Predictions were only made againſt the <hi>Jews,</hi> but they equally concerne a<g ref="char:EOLhyphen"/>ny Nation, which ſucceeds into their priviledge and relation; ſo that we may call them <hi>The Rolls of Hea<g ref="char:EOLhyphen"/>ven, or, The Books of Divine Providence;</hi> wherein we may read and aſſuredly learn, how near the ruine and extirpation is of each profeſſing State and Kingdome. The Signes which are there Regiſtred, are ſuch as theſe,</p>
+            <p>Firſt,
+<label type="milestone">
+                  <seg type="milestoneunit">Signe </seg>1</label> When there are great and ſuddain mutati<g ref="char:EOLhyphen"/>ons in that courſe and order which God hath appoin<g ref="char:EOLhyphen"/>ted in nature. God hath already fixed a Law, that, <hi>While the earth remaineth,</hi>
+               <note place="margin">Gen. 8.22.</note> 
+               <hi>ſeed-time and harveſt, and cold and heat, and Summer and Winter ſhall not ceaſe, i. e.</hi> Theſe ſeaſons ſhall not vary, but follow each o<g ref="char:EOLhyphen"/>ther in their proper turnes. Not as if God had in<g ref="char:EOLhyphen"/>diſpenſably tied himſelf alwayes to obſerve this Rule, but that he would ordinarily do this without alterati<g ref="char:EOLhyphen"/>on, unleſſe the ſinnes of a people did provoke him,
+<pb n="11" facs="tcp:54598:9"/>for then, as he ſpeaks to the <hi>Iſraelites,</hi>
+               <note place="margin">Numb. 14.34.</note> 
+               <hi>They ſhould know his breach of promiſe, i. e.</hi> that he would change and vary his determination. When therefore the ſeaſons are altered, when we have our <hi>Summer</hi> in <hi>Winter,</hi> and our <hi>Winter</hi> in <hi>Summer,</hi> it is a ſign God is angry; and is now <hi>whetting his ſword,</hi> and <hi>prepa<g ref="char:EOLhyphen"/>ring his arrows</hi> againſt the tranſgreſſors. Therefore when <hi>Moſes</hi> threatens the <hi>Iſraelites</hi> for their diſobe<g ref="char:EOLhyphen"/>dience, amongſt other judgements, he reckons this for one,
+<note place="margin">Deut. 28.23, 24.</note> 
+               <hi>Thy Heaven that is over thy head ſhall be braſſe, and thy earth iron, and thy rain powder and duſt,</hi> and then concludes; and they ſhall be unto <hi>thee for a ſign and for a wonder.</hi>
+               <note place="margin">Verſe 46.</note> Accordingly when <hi>Sa<g ref="char:EOLhyphen"/>muel</hi> would declare how angry God was with the People, for their wantonneſſe in deſiring a change of their Government, he tells them that he would call for <hi>thunder and rain,</hi>
+               <note place="margin">1 Sam. 12.17.</note> which at that time of the year in thoſe parts, was altogether ſtrange; <hi>That,</hi> ſaith he, <hi>ye may perceive and ſee, that your wickedneſſe is great, which ye have done in the ſight of the Lord, in asking you a King.</hi> And when upon this the Lord ſent <hi>thunder and rain,</hi> the people were ſo apprehen<g ref="char:EOLhyphen"/>ſive of their danger, that immediately they cry out to <hi>Samuel, Pray for thy ſervants, unto the Lord thy God, that we dye not:</hi> as conceiving, that God would not ſtop or reſt ſatisfied with a bare denunciation of his anger, but go on to the extremity of it.
+<note place="margin">Joel 1.15, 17.</note> So the Prophet <hi>Joel</hi> makes an <hi>unſeaſonable ſeeds-time,</hi> and an <hi>unfruitfull harveſt</hi> forerunners of ſome greater vengance. <hi>Alas,</hi> ſaith he, <hi>for the day, for the day of the Lord is at hand, and as a deſtruction from the Al<g ref="char:EOLhyphen"/>mighty ſhall it come.</hi> And this he gathers, becauſe <hi>The ſeed is rotten under their clods, the garners are
+<pb n="12" facs="tcp:54598:10"/>laid deſolate, the barns are broken down; for the Corn is withered.</hi> As when the pillars and ſupports of an houſe are removed and taken away, we may learn in<g ref="char:EOLhyphen"/>fallibly, that the houſe it ſelf will not long ſtand: So when Bread-corn, which is called in Scripture, the <hi>ſtay and ſtaff,</hi> begins to fail, we need not doubt but ſome worſe judgement is at the <hi>doore,</hi> and juſt en<g ref="char:EOLhyphen"/>tring in. Under this head of <hi>extraordinary mutations,</hi> I may rank <hi>Eclypſes, Comets, unuſual Apparitions</hi> and <hi>strange Accidents</hi> in any of the Elements, which our Saviour ſayes ſhould and (as we read in <hi>Joſephus,</hi>) did actually precede the deſtruction of <hi>Jeruſalem.</hi> But of theſe I ſpoke before.</p>
+            <p>Secondly,
+<label type="milestone">
+                  <seg type="milestoneunit">Signe </seg>2</label> Another Sign of an approaching judge<g ref="char:EOLhyphen"/>ment, is, when the heart and affections of ſuch as God ſends to Preach in his Name, are mightily drawn out to ſpeak againſt the abominations of a Land, but they meet with no ſucceſſe anſwerable to their labours; but are either reproached and ſcorn<g ref="char:EOLhyphen"/>ed; or Impriſoned and Silenced for it. Among the aggravations of <hi>Zedekiahs</hi> ſinnes, this is reckoned as one,
+<note place="margin">2 Chron. 36.12.</note> 
+               <hi>That he humbled not himſelf before Jeremiah the Prophet, ſpeaking from the mouth of the Lord.</hi> And likewiſe of <hi>Herods,</hi> who, though he were an inceſtu<g ref="char:EOLhyphen"/>ous and voluptuous wretch, yet ſaith the Text, <hi>He added this above all,</hi>
+               <note place="margin">Luke. 3.20.</note> 
+               <hi>that he put John Baptist</hi> (a ſharp and ſevere Preacher) <hi>in priſon.</hi> As if his other ſins were ſmall in compariſon of this. It is therefore re<g ref="char:EOLhyphen"/>corded as the cauſe which did both haſten and com<g ref="char:EOLhyphen"/>pleate the ruine of <hi>Jeruſalem,</hi>
+               <note place="margin">2 Chron. 36.15, 16.</note> That, <hi>The Lord God of their fathers ſent to them by his meſſengers, riſing up betimes, and ſending; becauſe he had compaſsion on his people, and on his dwelling place.</hi> And therefore ſent
+<pb n="13" facs="tcp:54598:10"/>his Heralds, before he would wage open War: <hi>But,</hi> ſayes the Text, <hi>they mocked the meſſengers of God, and deſpiſed his words, and miſuſed his Prophets,</hi> and what followed, <hi>Untill the wrath of the Lord aroſe a<g ref="char:EOLhyphen"/>gainſt his people, and there was no remedy.</hi> For when a people refuſes to hear the <hi>voice of God,</hi> which ſpeaks alwayes in theſe Prophets that he Commiſſions, then he hath no way to vindicate his honour, but to <hi>make bare his arme,</hi> in their deſtruction. As <hi>David</hi> aven<g ref="char:EOLhyphen"/>ged the outrage offered unto his Embaſſadors, in the utter ſlaughter and devaſtation of the <hi>Ammonites.</hi> When the <hi>Jews</hi> had arrived to that degree of com<g ref="char:EOLhyphen"/>placency in ſin, as to ſay unto the Prophets,
+<note place="margin">Amos 2.12, 13.</note> 
+               <hi>prophe<g ref="char:EOLhyphen"/>ſie not;</hi> then God preſently threatens, <hi>I will preſſe your place, as a Cart preſſeth that is full of ſheaves,</hi> i. e. I will ſo load and purſue you with my judgements, that they ſhall daſh and break you to pieces, as a load<g ref="char:EOLhyphen"/>ed Cart doth cruſh the Waggoner or whatever elſe it falls upon. And therefore it is obſervable, that none ever impriſoned Gods Prophets, but they met with ſudden and unexpected deaths. When <hi>Ahab</hi> had commanded to put <hi>Micaiah</hi> in Priſon, the next news we hear of is,
+<note place="margin">1 Reg. 22.</note> that he went down to Battle and periſhed there.
+<note place="margin">Amos 7.10, 12</note> And when <hi>Amaziah</hi> the High Prieſt of <hi>Bethel</hi> had accuſed <hi>Amos</hi> of <hi>ſedition</hi> and <hi>treaſon;</hi> and forbad him <hi>to propheſie any longer at Bethel, for it was the Kings Chappel, and the Kings Court. A<g ref="char:EOLhyphen"/>mos</hi> denounceth againſt them this heavy doome, that his <hi>Wife ſhould be a ſtrumpet, his children ſhould fall by the ſword;</hi> and notwithſtanding his endeavour to pre<g ref="char:EOLhyphen"/>vent his propheſying by <hi>Priſon</hi> and <hi>Pillory,</hi> yet God would certainly fulfill it. It is ſo unpleaſant a taske, ſo contrary to fleſh and blood, and ſo full of apparent
+<pb n="14" facs="tcp:54598:11"/>hazard, to reprove ſinne in the world, that where<g ref="char:EOLhyphen"/>ever God ſtirs up the ſpirit of any to do it, with thoſe Cautions and in that manner which the Word of God warrants, ſuch an one will have Gods power to ſtand by and to defend him; and to ſuppreſſe this duty in any, onely haſtens the judgement: as when in a rage men put out the Candle, it preſently in<g ref="char:EOLhyphen"/>volves them in an helpleſſe and irrecoverable dark<g ref="char:EOLhyphen"/>neſſe.</p>
+            <p>Laſtly,
+<milestone type="tcpmilestone" unit="unspecified" n="3"/> It is an aſſured ſigne of an approaching judgement, when the iniquities of a Nation are arri<g ref="char:EOLhyphen"/>ved to their height. There is a certain fixed mea<g ref="char:EOLhyphen"/>ſure and fullneſſe of ſinne, which when it is once made up, the ſtroke of the Clock doth not more certainly follow the motion of the Hand, than Gods judgement doth purſue the cry of thoſe ſinnes. It is therefore rendred as a reaſon by God, why he did de<g ref="char:EOLhyphen"/>fer the puniſhment of the <hi>Amorites</hi> ſo long, becauſe ſaith he,
+<note place="margin">Gen. 15.16.</note> 
+               <hi>The iniquity of the Amorites is not yet full.</hi> And when God deſcends to viſit <hi>Sodom,</hi> he alledgeth this as the occaſion of it;
+<note place="margin">Gen. 18.20.</note> 
+               <hi>The cry of Sodom and Go<g ref="char:EOLhyphen"/>morrah is very great, and their ſin is very grievous; wherefore,</hi> ſaith he, <hi>I will ſee whether they have done according to the cry of it:</hi> implying that their ſinne was grown ſo clamorous, loud and importunate, that it had attained its full growth, and therefore he could no longer defer his vengeance. This is expreſſed in Scripture under the ſimilitudes of an <hi>Harveſt</hi> and a <hi>Vintage;</hi>
+               <note place="margin">Jer. 51.33.</note> as in <hi>Jeremy,</hi> God ſaith of <hi>Babylon, The daughter of Babylon is like a threſhing-floore, it is time to threſh her; yet a little while and the time of her har<g ref="char:EOLhyphen"/>veſt ſhall come: i.</hi> I will mowe her down with my judgements, becauſe ſhe begins to be as it were mel<g ref="char:EOLhyphen"/>lowed
+<pb n="15" facs="tcp:54598:11"/>in ſin, and thereby ripe for ruine. So in <hi>Joel,</hi>
+               <note place="margin">Joel 3.13.</note> 
+               <hi>Put ye in the ſickle, for the harvest is ripe; come get you down, for the preſſe is full, the fats overflow, for their wickedneſſe is great,</hi> or according to the Greek, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>is multiplyed. i. e.</hi> There is not one ſinne wanting to compleate the number, which when it is made up, judgment alwayes follows it; as the break<g ref="char:EOLhyphen"/>ing of the Ordnance doth its being overcharged with Powder. It is for this reaſon mainly that our Sa<g ref="char:EOLhyphen"/>viour ſo long delayes his coming, becauſe then he in<g ref="char:EOLhyphen"/>tends to put an end to, and to take vengeance of the wickedneſſe of men, and therefore he waits till they have filled up their meaſure,
+<note place="margin">Revel. 15.15.</note> 
+               <hi>Till the harveſt of the earth be ripe,</hi> and ſinne like a common contagion hath once more overſpread the face of all Lands, he will not command his Angel <hi>to thruſt in his ſickle.</hi> And therefore it will be dreadfull to live at the <hi>end of the world;</hi> for as a ſtone that deſcends to its center, the nearer it approaches, the more ſpeed and ſwiftneſſe, and withall the more weight it contracts: or as the <hi>people of Iſrael,</hi>
+               <note place="margin">Acts 7.17.</note> 
+               <hi>The nearer the time grew of Gods pro<g ref="char:EOLhyphen"/>miſe to them, the more they multiplyed;</hi> as <hi>Stephen</hi> obſerves. So the nearer the world haſtens to its end, the more will iniquity abound, and by its enor<g ref="char:EOLhyphen"/>mous redundancy, provoke and accelerate an utter deſolation.</p>
+            <p>
+               <hi>Queſt.</hi> But ſome may ask, How ſhall we know when the iniquities of a Nation are arrived unto that meaſure and proportion, againſt which judgement is decreed.</p>
+            <p>
+               <hi>Anſw.</hi> I anſwer, By comparing the event of the Prophets predictions againſt <hi>Jeruſalem,</hi> in theſe two fatall <hi>Epocha's,</hi> when their City and Temple was
+<pb n="16" facs="tcp:54598:12"/>burnt up, firſt by the <hi>Chaldeans,</hi> and after that by the <hi>Romans;</hi> it will appear that a Nation which pro<g ref="char:EOLhyphen"/>feſſeth to ſerve God, in the truth and purity of Reli<g ref="char:EOLhyphen"/>gion, hath then filled up its <hi>meaſure of ſinne,</hi> and conſequently lies under the immediate arreſt of ſome great and irreparable judgement, when there are committed by them theſe three great abomina<g ref="char:EOLhyphen"/>tions.</p>
+            <p>Firſt, When a people newly come out of great affliction, relapſe into the very ſame ſinnes for which they were afflicted. The end of all affliction on Gods part is to purge out ſinne, and to get himſelf glory by our repentance, as he ſpeaks by the Prophet, <hi>By this ſhall the iniquity of Jacob be purged,</hi>
+               <note place="margin">Iſai. 27.9.</note> 
+               <hi>and this is all the fruit to take away his ſinne:</hi> When God miſſeth of this end, then one judgement ſleighted and con<g ref="char:EOLhyphen"/>temned, onely makes way for another. As he threatens by <hi>Moſes,</hi>
+               <note place="margin">Lev. 26.23, 24.</note> 
+               <hi>If ye will not be reformed by me, by theſe things, but will walk contrary to me; Then</hi> (he doth not ſay I will leave off ſtriking, and give you o<g ref="char:EOLhyphen"/>ver; but) <hi>will I alſo walk contrary unto you, and will puniſh you yet ſeven times for your ſinnes.</hi> As a Judg doth ſeldome ſpare an incorrigible Felon, but after he hath been once burnt in the hand, if he comes again before him, he gives immediate order for his Execu<g ref="char:EOLhyphen"/>tion: So when Gods lighter ſtrokes have been bea<g ref="char:EOLhyphen"/>ten back without making impreſſion, we muſt then expect to feel the weight of his hand. This is that which the Prophets by joynt conſent take notice and ſadly complain of in the people of <hi>Iſrael.</hi>
+               <note place="margin">Iſai. 9.12, 13.</note> 
+               <hi>Eſay</hi> having recounted the ſad eſtate of the <hi>Jews,</hi> by reaſon of the many enemies which did ſurround them, <hi>Yet,</hi> ſaith he, <hi>for all this, his, i.</hi> Gods <hi>anger is not turned away,
+<pb n="17" facs="tcp:54598:12"/>but his hand is ſtretched out ſtill:</hi> For which he aſ<g ref="char:EOLhyphen"/>ſignes this reaſon, <hi>For the people turneth not unto him that ſmiteth them, neither do they ſeek the Lord of Hoſts.</hi> So <hi>Jeremy,</hi>
+               <note place="margin">Jer. 5.<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> 
+               <hi>They have refuſed to receive cor<g ref="char:EOLhyphen"/>rection; they have made their faces harder than a rock, they have refuſed to return. Therefore I ſaid, they are fooliſh; for they know not the way of the Lord, nor the judgement of their God, i. e.</hi> They underſtand not what is Gods deſigne and end in bringing judgment, which was to bow and incline the heart unto him<g ref="char:EOLhyphen"/>ſelf. Whereupon it follows,
+<note place="margin">Verſe 7.</note> 
+               <hi>How ſhall I pardon thee for this?</hi> As if he had ſaid, this is a ſinne which I cannot pardon, but muſt go on to puniſh.
+<note place="margin">Amos 4.11.</note> So <hi>Amos</hi> repeating ſeveral judgements, as <hi>famine, drought, barrenneſs, the plague,</hi> and the like, which God had brought upon them, yea, ſaith he, <hi>I have overthrew ſome of you, as God overthrew Sodom and Gomorrah, and ye were as a fire-brand pluckt out of the burning; yet ye have not returned unto me ſaith the Lord:</hi> Then preſently he threatens,
+<note place="margin">Verſe 2.</note> 
+               <hi>Therefore thus will I do unto thee, i. e.</hi> I will execute what I formerly denounced, <hi>to take away them and their poſterity with fiſh books: i.e.</hi> to make clean riddance. <hi>And becauſe I will do this unto thee, therefore prepare to meet thy God, O Iſrael. i. e.</hi> Look upon God as thine enemy, and ſit thy ſelf for the encounter. For as it is in <hi>Ezekiels</hi> words,
+<note place="margin">Ezek. 24.13.</note> 
+               <hi>Be<g ref="char:EOLhyphen"/>cauſe I have purged thee, and thou waſt not purged, thou ſhalt not be purged from thy filthineſs any more, till I have cauſed my fury to rest upon thee, i. e.</hi> I will ſo ſa<g ref="char:EOLhyphen"/>tiate mine anger, that I ſhall not need to renew it; as the Prophet <hi>Nabum</hi> ſpeaks,
+<note place="margin">Nahum 1.9.</note> 
+               <hi>Affliction ſhall not riſe, up a ſecond time.</hi> I will once for all eaſe me of my ad<g ref="char:EOLhyphen"/>verſaries, by breaking them to pieces, with one ſtroke
+<pb n="18" facs="tcp:54598:13"/>of my fury. When men run greedily to enjoy their un<g ref="char:EOLhyphen"/>lawful pleaſures, and are ſo much the fiercer and more eager upon them, the longer they have been reſtrain<g ref="char:EOLhyphen"/>ed;
+<note place="margin">Iſai. 5.12.</note> there is a <hi>Woe</hi> pronounced againſt them: <hi>The harp and the viol, the tabret and the pipe, and Wine are in their feaſts; but they regard not the work of the Lord, neither conſider the operation of his hands.</hi> i. e. They never conſider that when God ſends a publick jugdment, he is then like a Judg upon the Bench, and expects that his clemency in releaſing and taking it off, ſhould not be affronted with a new miſcarri<g ref="char:EOLhyphen"/>age.</p>
+            <p>Secondly, The ſins of a Nation then ſeem to have attained their full meaſure, when there is a general and an allowed corruption in the publick Preachers of the Word: when they either Preach vainly, or live viciouſly. Vain Preachers are ſuch in the Prophet <hi>E<g ref="char:EOLhyphen"/>zekiels</hi> words,
+<note place="margin">Ezek. 13.2, 3.</note> 
+               <hi>Who propheſie out of their own hearts; Fooliſh Prophets, who follow their own ſpirit, and have ſeen nothing.</hi> Who have never felt the power of the Word themſelves, and therefore ſpeak not to the heart,
+<note place="margin">2 Cor. 2. <hi>ult.</hi>
+               </note> but only to the ears of others. Such in the Apo<g ref="char:EOLhyphen"/>ſtle <hi>Pauls</hi> phraſe, as do <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, we render it, <hi>corrupt the Word,</hi> but properly it is, to deal with the <hi>Word</hi> as bankrupt Merchants do with their Wine, <hi>i.e.</hi> daſh and allay it by mingling water with it; So theſe, by trickments of humane eloquence and fantaſtick curioſity dreſſe up the Word of God, and by rob<g ref="char:EOLhyphen"/>bing it of its <hi>plainneſſe,</hi> do as far as they can, take away likewiſe its <hi>power.</hi>
+               <note place="margin">2 Pet. 2.3.</note> Such as <hi>Peter</hi> ſpeaks of, who <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, by <hi>counterfeit and cunning words, make merchandize of men,</hi> i. e. make Preaching which God appointed as a means to ſave ſouls, meerly a trade to
+<pb n="19" facs="tcp:54598:13"/>get money by: whom he there ſeverely threatens, <hi>Whoſe judgment now of a long time,</hi> i. e. which long ſince was decreed againſt them, <hi>lingreth not,</hi> or <hi>is not idle. And their damnation,</hi> or <hi>puniſhment ſlumbreth not.</hi> And it were well for Nations, if ſuch Drones who eat the honey, and make a noiſe, and yet have no ſting; no piercing quickneſſe in their Miniſtry to rouſe and ſtir up a ſecure and ſleepy ſinner, were to periſh alone in their iniquity; but they are a general plague, a fretting leproſie that infect and conſume all round about them. <hi>For,</hi> ſaith <hi>Jeremy,</hi>
+               <note place="margin">Jer. 5.30, 31.</note> 
+               <hi>a wonderfull and horrible thing is committed in the Land. The Prophets, i.</hi> the Preachers, <hi>propheſie falſely,</hi> and <hi>the Prieſts, i.</hi> the ſuperiour Order of the Jewiſh Clergy, <hi>bear rule by their meanes, and my people love to have it ſo.</hi> Which complaint he uſhers in with this menace, <hi>Shall I not viſit for theſe things? ſaith the Lord; ſhall not my ſoul be avenged on ſuch a Nation as this?</hi> When thoſe who are ſtiled <hi>Lights,</hi> do either not ſhine at all, or elſe caſt a falſe and deceitfull luſtre, which meerly miſleads the unwary Travellers; God then thinks it high time for him to come with his <hi>Candle,</hi> and to ſearch out their iniquity, till he finds none. And if <hi>vain-Preaching</hi> doth thus provoke God, much more doth <hi>vicious living:</hi> For if the <hi>ſalt becomes unſavoury,</hi> it is not only to be thrown away it ſelf, but <hi>it defiles a Land,</hi> and makes it but a noiſome dunghill, fit only for the <hi>raine of vengeance,</hi> to purifie and waſh it.
+<note place="margin">Iſa. 56.10, 12.</note> The Watchmen of <hi>Iſrael</hi> in <hi>Eſays</hi> time, were <hi>ignorant and blind,</hi> and as a conſequent of that, <hi>they were dumb Dogs which could not bark;</hi> and likewiſe great volup<g ref="char:EOLhyphen"/>tuaries, <hi>ſleeping, lying down and loving to ſlumber.</hi> Such <hi>Shepherds</hi> which though they did not <hi>under<g ref="char:EOLhyphen"/>ſtand,
+<pb n="20" facs="tcp:54598:14"/>i. e.</hi> what belonged unto their proper dtuy, yet they could look to their profit well enough, <hi>They all look to their own way, every one for his gain, from his quarter:</hi> And with their Gains, they procured <hi>Wine</hi> and <hi>ſtrong drink,</hi> and eat and drank like Epicures. Whereupon God ſends a ſummons, <hi>All ye beaſts of the field come to devour.</hi>
+               <note place="margin">Verſe 9.</note> As if ſuch brutiſh and ſwiniſh Teachers were only fit to be a prey unto their fellow beaſts.
+<note place="margin">Ier. 23.14.</note> So in <hi>Jeremy</hi> God complains, <hi>I have ſeen in the Prophets of Jeruſalem an horrible thing. They ſtrengthen the hands of evil doers, that none doth re<g ref="char:EOLhyphen"/>turn from his wickedneſſe. Therefore I will feed them with wormwood, and make them drink the water of gall; For from the Prieſts is profanneſſe gone out into the Land.</hi> For according to <hi>Hoſe as</hi> words, which may be Proverbially uſed,
+<note place="margin">Hoſea 4.9.</note> 
+               <hi>Like Prieſt, like People.</hi> When ſin gets credit by the Preachers example, it ſpreads pre<g ref="char:EOLhyphen"/>ſently. It is no wonder then if <hi>God works, i.</hi> ſends ſome ſuddain judgment, for men will be ſure to make void his Law, when ſuch as ſhould be the reprovers of ſinne, are the principal and moſt noted committers of it.</p>
+            <p n="3">3. Laſtly, The ſins of a Nation are then full and ripe for vengeance, when thoſe commands of God are moſt commonly broken, which God hath moſt particularly preſſed upon our obſervance; which he ſeems as it were to have an eſpeciall care of; and therefore hath hedged in, and fenced about with his Prohibi<g ref="char:EOLhyphen"/>tions.</p>
+            <p>Of this ſort I might mention many, As 1. <hi>Oppreſ<g ref="char:EOLhyphen"/>ſion of the poore:</hi>
+               <note place="margin">Prov. 14.21.</note> which who ſo practiſeth, <hi>reproacheth his Maker:</hi> and therefore ought to expect, that God will vindicate his quarrel. 2. <hi>Adultery</hi> and <hi>uncleanneſs;</hi>
+               <pb n="21" facs="tcp:54598:14"/>which is ſaid <hi>greatly to defile a Land:</hi>
+               <note place="margin">Ier. 3.1.</note> And when a Land is <hi>filthy,</hi> God ſaith he <hi>will ſweep it with the bee<g ref="char:EOLhyphen"/>ſome of deſtruction.</hi> 3. <hi>Entrapping and injurious Laws.</hi> When the Law inſtead of being a protection, becomes a ſnare; when <hi>men are made offenders for a word,</hi>
+               <note place="margin">Iſai. 29.21.</note> and <hi>wait is laid for ſuch as reprove in the gate; and the juſt are turned aſide for a thing of naught, i. e.</hi> for ſmall and trivial cauſes, good and upright men are condem<g ref="char:EOLhyphen"/>ned and ſentenced. But to paſs by theſe, I ſhall inſiſt only upon three Commands, all which are contained in the Decalogue, and God ſeems by his manner of enforcing them (which he doth in more words than he ſpends upon all the reſt) to have a principal eſteem and concernment for them.</p>
+            <p n="1">1. <hi>That againſt Idolatry,</hi> Com. 2.</p>
+            <p n="2">2. <hi>That againſt Swearing,</hi> Com. 3.</p>
+            <p n="3">3. <hi>That againſt Sabbath-breaking,</hi> Com. 4.</p>
+            <p n="1">1. The Command againſt Idolatry is fenced with a ſevere Commination, that God is a <hi>jealous God,</hi> and that he will puniſh not the perſons only, but alſo the poſterity of ſuch <hi>as hate him:</hi> for ſo he counts all them to do, who ſet up their commands and wor<g ref="char:EOLhyphen"/>ſhips, in competition with his; for did they indeed love God, they would reverence his Wiſdom, and not preſume to ſerve him any other way than he hath appointed. This Precept therefore is broken, not only when Images are erected, and divine honour gi<g ref="char:EOLhyphen"/>ven to them, which is but a groſs and dull part of I<g ref="char:EOLhyphen"/>delatry, (and yet as ſtupid and ſenſleſs as it is, it is at this day, in theſe very terms, practiſed and enjoin<g ref="char:EOLhyphen"/>ed among the Papiſts) but alſo when we have in<g ref="char:EOLhyphen"/>ventions and deviſes of our own, to adorn as we think, but indeed to adulterate the worſhip of God:
+<pb n="22" facs="tcp:54598:15"/>which is then beſt, when it is moſt ſimple, and ſavour<g ref="char:EOLhyphen"/>ing of its divine original. This was the ſin of which the <hi>Scribes</hi> and <hi>Phariſees</hi> were guilty in our Saviours,
+<note place="margin">Matth. 15.</note> who <hi>worſhipped God after the commandments and tra<g ref="char:EOLhyphen"/>ditions of men,</hi> for which he threatens, that they ſhould be rooted up: <hi>Every plant,</hi> ſaith he, <hi>which my Father hath not planted ſhall be rooted up.</hi> God doth ſo much diſdain to have his worſhip ſquared by mens modell, that he will root up all ſuch impious preten<g ref="char:EOLhyphen"/>ders, who by giving way to their own imaginations, do ſecretly tax the goodneſs of God, as if he were not ho<g ref="char:EOLhyphen"/>ly and wiſe enough in his own appointments. For let men ſay and uſe what fine diſtinctions they pleaſe, it will at laſt be found, that all ſuch ſelf-deviſed forms, though they are not ſo groſs and palpable, yet have e<g ref="char:EOLhyphen"/>very whit as much of the nature and ſpirit of Idolatry in them, as the open adoration of Images. And the reaſon is clear, for when God rebukes this ſin by the Prophets, he chargeth them moſt with this, that they did what he never commanded.
+<note place="margin">Jer. 7.32, 31.</note> As in <hi>Jeremy, They have ſet their abominations in the houſe which is called by my name to pollute it. And they have built the high places of Tophet, to burn their ſons and daughters in the fire. Which,</hi> ſaith God, <hi>I commanded them not, neither came it into my heart.</hi>
+               <note place="margin">Jer. 18.15.</note> And in another place, <hi>My peo<g ref="char:EOLhyphen"/>ple hath forgotten me, they have burnt incenſe to vanity, and they have cauſed them to stumble in their wayes, from the ancient paths, to walk in paths, in a way not caſt up, i.</hi> in a way, which God never chalked out for them.
+<note place="margin">Hoſea 13.2.</note> So in <hi>Hoſea,</hi> God complaints, That <hi>they made themſelves Images of ſilver and gold, according to their own underſtanding.</hi> Whereupon it is recorded as a great aggravation of <hi>Jeroboams</hi> ſin, that he offered
+<pb n="23" facs="tcp:54598:15"/>to God in the fifteenth day of the eigth moneth,
+<note place="margin">1 King. 15.32.</note> 
+               <hi>even in the moneth which he had deviſed of his own heart.</hi> From all which places it appears, that the Idol did not ſo much provoke God, as the ill temper of heart in the idolater, which occaſioned it; and that was a proud conceit of mending the Law of God, and of ad<g ref="char:EOLhyphen"/>ding ſomething to make it more ſpecious. And this corrupt principle is the true ſpring of all invented, uncommanded, and therefore unwarrantable <hi>forms of Worſhip.</hi> In defence of which, whoever pleads cu<g ref="char:EOLhyphen"/>ſtome and antiquity, doth only uſe Names, for which we ought ſo much the more to deteſt it. Since the older an error is, the worſe it is; and calls for the ſorer rain of judgment, to waſh thoſe inveterate ſtains of it away. As God threatens by <hi>Amos,</hi>
+               <note place="margin">Amos 2.4.</note> 
+               <hi>For three tranſgreſsions of Judah, and for four, I will not turn away the puniſhment, becauſe they have deſpiſed the Law of the Lord, and have not kept his Command<g ref="char:EOLhyphen"/>ments, and their lies cauſed them to erre, after the which their fathers walked:</hi> They it ſeems plea<g ref="char:EOLhyphen"/>ded cuſtome too, and tradition from Fathers, but this very thing did ſo little abate, that it is mentioned as a cauſe of their puniſhment. And it is very obſerva<g ref="char:EOLhyphen"/>ble, that when the <hi>people of Iſrael</hi> were <hi>flat Idolaters,</hi> God did content himſelf with puniſhing them only by ſeventy years captivity. But in our Saviours time, when in great zeal, not for Gods Law, but for their own falſe gloſſes and Comments upon it, (by which they ſought to uphold their ſuperſtitious uſages,) they rejected Chriſt, and would not endure the ſim<g ref="char:EOLhyphen"/>plicity of his Goſpel (At which time they were ſo far from idolatry, that they would not brooke ſo much as the Emperours Statue to be ſet upon the Temple;)
+<pb n="24" facs="tcp:54598:16"/>yet God did look upon that refined and more ſubtle Idolatry, that <hi>will-worſhip</hi> of theirs, to be ſo great and ſo incurable a ſin, that he ſoon after fulfilled all thoſe <hi>wees,</hi> which our Saviour had denounced againſt them, and left them neither <hi>place</hi> nor <hi>Nation:</hi> and they are at this day a terrible Inſtance, both how ill ma<g ref="char:EOLhyphen"/>nagers of holy things, humane fancy is; and like<g ref="char:EOLhyphen"/>wiſe how ſeverely God will avenge ſuch bold and unlicenſed intermedling.</p>
+            <p n="2">2. The ſecond Command which God hath fenced with a commination, is that againſt <hi>taking Gods name in vain,</hi> concerning which, he affirms that he will not hold the doers of it <hi>guiltleſſe,</hi> i. e. he will cer<g ref="char:EOLhyphen"/>tainly and unavoidably puniſh them. By <hi>taking Gods name in vain,</hi> may be meant either <hi>falſe,</hi> or <hi>vain ſwearing;</hi> and either of them is a grievous God-provoking ſin. For the firſt, <hi>viz.</hi> that of <hi>perjury</hi> or <hi>forſwearing,</hi> the Inſtances are ſo notori<g ref="char:EOLhyphen"/>ous, that I need not inſiſt on them. The caſes of <hi>Joſhua</hi> and the <hi>Gibeonites,</hi> which was an <hi>Oath got by fraud;</hi>
+               <note place="margin">Ezek. 17.13, 19.</note> of <hi>Zedekiah</hi> and <hi>Nebuchadnezzar,</hi> which was <hi>an Oath extorted by force,</hi> might ſeem to have ſomething pleadable in their excuſe: but Gods in<g ref="char:EOLhyphen"/>diſpenſable puniſhing the violatours of thoſe <hi>ſolemn Vowes,</hi> ſufficiently ſhowes us, that thoſe perſons who have been in the ſame caſe, muſt needs expect the ſame puniſhment, if they ſhall venture to com<g ref="char:EOLhyphen"/>mit the ſame ſin. I ſhall therefore omit the proſe<g ref="char:EOLhyphen"/>cution of the guilt of <hi>perjury,</hi> againſt which ſo ma<g ref="char:EOLhyphen"/>ny <hi>curſes</hi> are denounced in Scripture, that as cer<g ref="char:EOLhyphen"/>tain as <hi>God is true,</hi> ſo certain is it, that that ſin will never long ſcape unpuniſhed. And only mention the inevitable danger of <hi>vain-ſwearing,</hi> which becauſe it
+<pb n="25" facs="tcp:54598:16"/>is more common, men are apt to think is more excu<g ref="char:EOLhyphen"/>ſable. This ſwearing in ordinary diſcourſe is that which our Saviour in his explication of the Law,
+<note place="margin">Mat. 5.33, 37.</note> ſayes was originally entended ſhould be forbidden, and therefore it is expreſly prohibited by him, becauſe it proceeds <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>From that evill one</hi> who delights in all manner <hi>of ſuperfluity of naughtineſs,</hi>
+               <note place="margin">Iames 1.21.</note> (as the A<g ref="char:EOLhyphen"/>poſtle <hi>James</hi> calls <hi>ſinne</hi>) and therefore needleſs and unneceſſary Oaths muſt needs take their firſt riſe from his inſtigation. And when this ſin did abound a<g ref="char:EOLhyphen"/>mong the <hi>Phariſees</hi> in our Saviours time, who made as little ſcruple to make, as to break their Oath (for which we read they had found out many ſubtle di<g ref="char:EOLhyphen"/>ſtinctions; as that an <hi>Oath by the Altar did not bind,</hi>
+               <note place="margin">Mat. 23.16, 22.</note> though an Oath, <hi>by the gold upon the Altar did,</hi> and the like) Our Saviour firſt tells them, that every Oath they ſwear, by any thing how light and trivial ſoever, was ſacred and obligatory; ſince it had an immediate aſpect upon the Creator; whoſe name, though it was not interpoſed, yet, was underſtood in all thoſe ſolemne aſſeverations. And then denoun<g ref="char:EOLhyphen"/>ces a <hi>Woe</hi> againſt them for ſuch raſh and inconſiderate ſwearing;
+<note place="margin">Deut. 28.58.</note> ſince it betrayes a great want of reverence towards God ſo lightly to mention his name, which ought to be feared and dreaded by us. And if they would plead, that they did not mention the name of God, but only <hi>ſwear by the creature, as by their head,</hi> &amp;c. the crime is ſo much the worſe, ſince it puts the creature into the place of God, who only <hi>hears our vows,</hi> and can take notice to puniſh the breach of them. So <hi>James,</hi> where he bids us <hi>not ſware at all,</hi> gives this reaſon, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>leaſt ye fall under judgment, i. e.</hi> Incurre ſome ſignall puniſhment
+<pb n="26" facs="tcp:54598:17"/>and judgment from God, for God will not have his Name toſſed about irreverently in our mouths; An Oath is a religious tye, and therefore ought to be <hi>ſo<g ref="char:EOLhyphen"/>lemn</hi> as well as <hi>ſacred.</hi> When therefore a Nation a<g ref="char:EOLhyphen"/>bounds with <hi>oaths</hi> and <hi>curſing;</hi> when <hi>ſwearing,</hi> and <hi>banning,</hi> and <hi>blaſpheming</hi> becomes our ordinary lan<g ref="char:EOLhyphen"/>guage; it is a ſign that the <hi>tongues of men are ſet on fire of hell,</hi>
+               <note place="margin">Iames 3.6.</note> and that calls for the fire of divine wrath to purifie them.</p>
+            <p>Laſtly, The third command which is eſpecially recommended to us, and therefore the breach of it cannot but be very dangerous, is that about <hi>keep<g ref="char:EOLhyphen"/>ing the Sabbath,</hi> which begins with a <hi>Memento,</hi> to ſhew, that it is very remarkable; and concludes with urging Gods example, who is to be our <hi>pattern,</hi> in all holy performances: And its this, which gives that command its obligation; for ſince the reaſon there alledged is univerſally equal, <hi>viz.</hi> That we ought to reſt becauſe God the Creator did reſt upon the ſeventh day; it muſt needs follow from hence, that the command is univerſally binding. Whereupon we find that it was enjoyned unto <hi>Adam</hi> in <hi>Paradiſe;</hi>
+               <note place="margin">Gen. 2.</note> when the nature of man was in its higheſt and moſt e<g ref="char:EOLhyphen"/>levated degree of perfection: and therefore neither <hi>pretences of piety</hi> with ſome, nor <hi>commands from Au<g ref="char:EOLhyphen"/>thority</hi> with others, nor <hi>examples of antiquity</hi> with the moſt; either can abſolve any, or ought to prevaile with us to quit and to leave off this duty. Hence we find that in all <hi>predictions,</hi> the <hi>breach of the Sabbath</hi> is alwayes reckoned for one of the greateſt, and moſt highly provoking ſins.
+<note place="margin">Iſai. 58.13, 14.</note> 
+               <hi>If thou turn away thy foot from the Sabbath,</hi> ſaith God, <hi>from doing thy pleaſure upon my holy day, and call the Sabbath a delight, the holy of the
+<pb n="27" facs="tcp:54598:17"/>Lord, and honourable.</hi> It follows, <hi>Then ſhalt thou delight thy ſelf in the Lord, and I will cauſe thee to ride upon the high places of the earth, i. e.</hi> I will ſignally bleſs and proſper thee: Now we muſt take notice, that whereever there is promiſe of a <hi>bleſsing</hi> for our obedience;
+<note place="margin">Ier. 17.21.</note> there is alwayes threatned a <hi>curſe</hi> for diſ<g ref="char:EOLhyphen"/>obedience. Therefore when <hi>Jeremy</hi> had commanded in the name of the Lord, that <hi>they ſhould carry no bur<g ref="char:EOLhyphen"/>den upon the Sabbath day,</hi> but <hi>hallow it, i. e.</hi> by for<g ref="char:EOLhyphen"/>bearing ſuch kind of employments, <hi>according as God had commanded.</hi> He concludes, that if they would not hearken, then ſaith God,
+<note place="margin">Verſe 28.</note> 
+               <hi>I will kindle a fire in the gates thereof, and it ſhall devour the palaces of Jeruſalem, and it ſhall not be quenched.</hi> From whence I infer, that if to <hi>bear a burden,</hi> which otherwiſe was lawfull and neceſſary, be ſo ſeverely prohibited upon that day; How much more are <hi>ſports</hi> and <hi>recreations,</hi> which are alwayes needleſs, and for the moſt part <hi>ſuſpicious,</hi> to be avoided then. <hi>Ezekiel</hi> therefore having told the people of the Jews,
+<note place="margin">Ezek. 20.12.</note> that <hi>God had given them his Sab<g ref="char:EOLhyphen"/>baths, to be a ſign between him and them, that they might know,</hi> ſaith he, <hi>that I am the Lord which do ſanctifie them.</hi> But they by their profanation having <hi>polluted theſe Sabbaths, Wherefore,</hi> ſaith God, <hi>I gave them ſta<g ref="char:EOLhyphen"/>tutes that were not good, and judgments whereby they ſhould not live, i. e.</hi> I brought my judgments upon them to deſtroy and to overthrow them. And ſince the parity of reaſon doth obliege us to the ſame ob<g ref="char:EOLhyphen"/>ſervance of a <hi>ſeventh day,</hi> or of <hi>one day in ſeven,</hi> with the <hi>Jews;</hi> we cannot doubt, but our breach and vio<g ref="char:EOLhyphen"/>lation of it, will bind us over to the ſame puniſh<g ref="char:EOLhyphen"/>ment.</p>
+            <p>Having thus found out in general what are the cer<g ref="char:EOLhyphen"/>tain
+<pb n="28" facs="tcp:54598:18"/>and infallible <hi>ſigns</hi> of an approaching judgment; the next part of our duty is, to enquire how far theſe <hi>ſigns</hi> do concern us, and whether we of this place have any juſt reaſon to be afraid of them. And here I ſhall adviſe you not ſo much to caſt your eyes abroad, in be<g ref="char:EOLhyphen"/>holding the ſtate of others (though that likewiſe is to be done) as to turn your eyes inward, and to conſider with you ſelves, whether any of theſe <hi>tokens of death</hi> be upon you. Survey your paſt actions, and diſcern, what meaſure your ſins in particular have contributed to fill up the Nations Cup. For as when the Sea roars and ſwels, the parts of water which lye next the bank, though they ſeem to be ſtill and quiet, yet do, becauſe of their contiguouſneſs, as much contribute to the noiſe and tumult of the Ocean, as any of thoſe which are more remote; ſo your ſins and mine, though per<g ref="char:EOLhyphen"/>haps they make not that ſtir in the world, nor flye up and down ſo much upon the tongues of men; yet do indeed as much make up and complete the Nations ſinnes, as any of thoſe that are more diſcourſed of. Therefore run over theſe provoking tranſgreſſions, mentioned a little before, and ſee what is your part in them. And when you have found them out, then</p>
+            <p n="1">1. Confeſs your guilt, and give God the glory of his mercy in that he hath ſo long delayed to puniſh. When <hi>Job</hi> would teſtifie his integrity, and thereby uſe an argument, why God ſhould eaſe him a little of his heavy load,
+<note place="margin">Iob 31.33.</note> he ſayes, <hi>I did not cover my tranſgreſ<g ref="char:EOLhyphen"/>ſions, as Adam, by hiding my iniquity in my boſome.</hi> And <hi>David</hi> praying likewiſe for reſpite, uſeth this mo<g ref="char:EOLhyphen"/>tive,
+<note place="margin">Pſal. 38.18.</note> For <hi>I will declare mine iniquity, I will be ſorry for my ſin.</hi> As when God hath brought his judgments, confeſſion of ſin is the beſt way to redreſs and remedy
+<pb n="29" facs="tcp:54598:18"/>them; as he tels the <hi>Iſraelites,</hi> that when he had dri<g ref="char:EOLhyphen"/>ven them out into forreign Lands, yet ſaith he,
+<note place="margin">Levit. 26.40.</note> 
+               <hi>If then they ſhall confeſs their iniquity, with their treſpaſs which they have treſpaſſed againſt me: and if then their uncircumciſed hearts be humbled, and they accept of the puniſhment of their iniquity, i. e.</hi> If they acknowledge that they did deſerve whatever I laid upon them:
+<note place="margin">Ier. 3.13.</note> 
+               <hi>then</hi> ſaith God, <hi>I will remember my Covenant,</hi> and reſtore them unto their Land: So before a judgment comes, <hi>confeſsion</hi> is the beſt way to arreſt and ſtop it. As God himſelf preſcribes the method, return, ſaith he to me, and I will not let my anger to fall upon thee, <hi>Only ac<g ref="char:EOLhyphen"/>knowledg thine iniquity, that thou haſt tranſgreſſed a<g ref="char:EOLhyphen"/>gainſt the Lord thy God.</hi> Till we <hi>confeſs we have ſinned,</hi>
+               <note place="margin">Ier. 2.35.</note> the ſame Prophet tels us, that <hi>God will continue to plead with us. David</hi> no ſonner confeſſed, but he ob<g ref="char:EOLhyphen"/>tained pardon, which when it is once gained, no judg<g ref="char:EOLhyphen"/>ment either is, or ought to be terrible; Becauſe then it looſeth its name, and inſtead of a <hi>puniſhment,</hi> as from a Judg, is only the Rod of a tender and compaſ<g ref="char:EOLhyphen"/>ſionate Father.</p>
+            <p n="2">2. Prevent the growth of future judgments, by a particular and ſerious repentance. Confeſſion and re<g ref="char:EOLhyphen"/>pentance muſt be joyned together, like the purge and the plaiſter; the one doth cleanſe the wound, the o<g ref="char:EOLhyphen"/>ther cures it. Confeſſion is the ſick and ſinfull ſouls Vomit; Repentance is its Diet: the one doth ſtir the humours and diſcover the diſtemper, the other begets new bloud and ſpirits, and brings us to a more health<g ref="char:EOLhyphen"/>full habit.</p>
+            <p>To encourage you to this, conſider</p>
+            <p>Firſt, By this means you may be inſtrumentall in retarding Gods judgments as to the whole Nation.
+<pb n="30" facs="tcp:54598:19"/>Had there been but <hi>ten righteous men in Sodom,</hi>
+               <note place="margin">Gen. 18.</note> God would not have medled with it: And when he came to puniſh <hi>Jeruſalem,</hi> he deſcends to a lower proporti<g ref="char:EOLhyphen"/>on, and declares, that if there had been <hi>but one,</hi> but <hi>a man that executed judgment,
+<note place="margin">Ier. 5.1.</note> and that ſought the truth, and he would pardon it.</hi> And he often complains, that he ſought <hi>for a man amongst them, that ſhould make up the hedge,</hi>
+               <note place="margin">Ezek. 22.30.</note> 
+               <hi>and ſtand in the gap before him, for the land, that he might not deſtroy it, but he found none.</hi> Thou ſinner, whoever thou art, that now lyeſt ſurfeiting in thy wickedneſs, thou knoweſt not, but thou maiſt be the man, for whoſe ſake, if thou repenteſt, God will ſave the Nation: Thou maiſt be raiſed out of the mire, wherein thou now walloweſt, and become a pillar to uphold a tottering ſtate. Or at leaſt, if Gods decree be gone forth, and there be no reverſing it, yet</p>
+            <p>Secondly, Thou wilt be ſure to ſave thy ſelf; though the ſentence of deſtruction ſhould be gone out of Gods mouth, and we were a people utterly devoted to ruine; nay though God was juſt now aiming his thunder, and levelling his arrows; yet could you ſup<g ref="char:EOLhyphen"/>poſe in that very inſtant, that a ſinner would repent, the threatned and intended evil would not come near him.
+<note place="margin">Ier. 18.7, 8.</note> Thus God himſelf expreſly, <hi>At what inſtant I ſhall ſpeak concerning a Nation, and concerning a King<g ref="char:EOLhyphen"/>dome, to pluck up, and to pull down, and to deſtroy it; If that Nation againſt whom I have pronounced, turn from their evill, I will repent of the evill that I thought to do unto them.</hi> And the reaſon is clear, becauſe re<g ref="char:EOLhyphen"/>pentance changes the perſon; God is angry only with ſinners, but he that hath once repented, is no longer accounted a ſinner: Repentance evens all accounts,
+<pb n="31" facs="tcp:54598:19"/>and ſin once truly ſorrowed for, is not only forgiven, but remembred no more. When we have once at<g ref="char:EOLhyphen"/>tained to ſuch peace with God, the tumults and ſtirs in the world may allarm, but they ought not to af<g ref="char:EOLhyphen"/>fright us. Therefore to conclude in the Prophet <hi>Zephanies</hi> words, <hi>Before the decree bring forth,</hi>
+               <note place="margin">Zeph. 2.12.</note> 
+               <hi>before the day paſs as the chaff, before the fierce anger of the Lord come upon you, ſeek ye the Lord all ye meek of the earth, which have wrought his judg<g ref="char:EOLhyphen"/>ment; ſeek righteouſneſs, ſeek meekneſs, it may be ye ſhall be hid in the day of the Lords Anger.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <p>
+               <hi>ERRATA.</hi> Page 1. line 2. for <hi>command</hi> read <hi>demand,</hi> page 2<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> line 28. for <hi>obſerve</hi> read <hi>afford.</hi>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>
